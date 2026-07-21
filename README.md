@@ -33,7 +33,7 @@ on iOS and Android.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/convive.git
+git clone https://github.com/guazzabuglio/convive.git
 cd convive
 cp .env.example .env
 # Edit .env — set MEALIE_HOST to your Mealie address

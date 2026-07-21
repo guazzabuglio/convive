@@ -1,6 +1,8 @@
 # convive
 
 > Tinder, but what's for dinner
+>
+> THIS PROJECT WAS AI SLOP-CODED
 
 A two-player dinner decider that pulls recipes from your [Mealie](https://mealie.io)
 instance. Both people swipe through a deck of your actual recipes. Where both

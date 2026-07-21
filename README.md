@@ -1,6 +1,6 @@
 # convive
 
-> Swipe together. Dine together.
+> Tinder, but what's for dinner
 
 A two-player dinner decider that pulls recipes from your [Mealie](https://mealie.io)
 instance. Both people swipe through a deck of your actual recipes. Where both

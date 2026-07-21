@@ -1,0 +1,30 @@
+services:
+
+  convive-server:
+    build: ./server
+    container_name: convive-server
+    restart: unless-stopped
+    networks:
+      - convive_internal
+
+  convive-client:
+    build: ./client
+    container_name: convive-client
+    restart: unless-stopped
+    ports:
+      - "${CONVIVE_PORT:-3000}:80"
+    environment:
+      # See .env.example for guidance on this value.
+      - MEALIE_HOST=${MEALIE_HOST:-host.docker.internal:9000}
+    depends_on:
+      - convive-server
+    networks:
+      - convive_internal
+    extra_hosts:
+      # Lets the container reach services on the Docker host by name.
+      # Needed if Mealie runs on the host outside Docker.
+      - "host.docker.internal:host-gateway"
+
+networks:
+  convive_internal:
+    driver: bridge

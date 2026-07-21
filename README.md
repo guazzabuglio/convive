@@ -11,6 +11,8 @@ swipe right, convive shows a match. Tap a match to see the full recipe.
 Self-hosted, ad-free, works on any device with a browser. Installs as a PWA
 on iOS and Android.
 
+https://github.com/user-attachments/assets/7655ff7c-c9ad-495d-8d21-1aba921f88f0
+
 ---
 
 ## Features
